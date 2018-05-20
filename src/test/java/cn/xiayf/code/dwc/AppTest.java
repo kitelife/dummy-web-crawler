@@ -1,4 +1,4 @@
-package cn.xiayf.code;
+package cn.xiayf.code.dwc;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

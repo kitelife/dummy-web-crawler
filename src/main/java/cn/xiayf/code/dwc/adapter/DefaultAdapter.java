@@ -1,6 +1,6 @@
-package cn.xiayf.code.adapter;
+package cn.xiayf.code.dwc.adapter;
 
-import cn.xiayf.code.adapter.bean.Task;
+import cn.xiayf.code.dwc.adapter.bean.Task;
 
 public class DefaultAdapter implements InputAdapter {
 

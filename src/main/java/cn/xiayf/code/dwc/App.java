@@ -1,4 +1,4 @@
-package cn.xiayf.code;
+package cn.xiayf.code.dwc;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -23,13 +23,13 @@ import com.gargoylesoftware.htmlunit.BrowserVersion;
 import com.gargoylesoftware.htmlunit.Page;
 import com.gargoylesoftware.htmlunit.WebClient;
 
-import cn.xiayf.code.adapter.InputAdapter;
-import cn.xiayf.code.adapter.bean.Task;
-import cn.xiayf.code.handler.BaseHandler;
-import cn.xiayf.code.handler.HandlerGroup;
-import cn.xiayf.code.helper.CommonHelper;
-import cn.xiayf.code.service.ConfigService;
-import cn.xiayf.code.service.RocksDBService;
+import cn.xiayf.code.dwc.adapter.InputAdapter;
+import cn.xiayf.code.dwc.adapter.bean.Task;
+import cn.xiayf.code.dwc.handler.BaseHandler;
+import cn.xiayf.code.dwc.handler.HandlerGroup;
+import cn.xiayf.code.dwc.helper.CommonHelper;
+import cn.xiayf.code.dwc.service.ConfigService;
+import cn.xiayf.code.dwc.service.RocksDBService;
 
 import lombok.extern.slf4j.Slf4j;
 

@@ -1,4 +1,4 @@
-package cn.xiayf.code.adapter.bean;
+package cn.xiayf.code.dwc.adapter.bean;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

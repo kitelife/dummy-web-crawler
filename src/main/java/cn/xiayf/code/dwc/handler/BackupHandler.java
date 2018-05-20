@@ -1,4 +1,4 @@
-package cn.xiayf.code.handler;
+package cn.xiayf.code.dwc.handler;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -7,10 +7,10 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 
 import org.apache.commons.io.IOUtils;
 
-import cn.xiayf.code.adapter.bean.Task;
-import cn.xiayf.code.helper.CommonHelper;
-import cn.xiayf.code.helper.ContentTypeHelper;
-import cn.xiayf.code.service.ConfigService;
+import cn.xiayf.code.dwc.adapter.bean.Task;
+import cn.xiayf.code.dwc.helper.CommonHelper;
+import cn.xiayf.code.dwc.helper.ContentTypeHelper;
+import cn.xiayf.code.dwc.service.ConfigService;
 
 import com.gargoylesoftware.htmlunit.Page;
 import com.gargoylesoftware.htmlunit.WebResponse;

@@ -1,6 +1,6 @@
 // Copyright (C) 2017 Baidu Inc. All rights reserved.
 
-package cn.xiayf.code.helper;
+package cn.xiayf.code.dwc.helper;
 
 import java.lang.reflect.Type;
 

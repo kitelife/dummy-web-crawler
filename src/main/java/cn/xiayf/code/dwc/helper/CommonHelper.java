@@ -1,4 +1,4 @@
-package cn.xiayf.code.helper;
+package cn.xiayf.code.dwc.helper;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

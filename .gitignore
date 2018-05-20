@@ -1,0 +1,10 @@
+.idea/
+data/
+urls.txt
+target/
+*.iml
+rocksdb-data/
+.classpath
+.project
+.settings/
+.vscode/

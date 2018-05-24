@@ -192,7 +192,7 @@ public class App {
         String[] handlers = cs.getHandlers().split(",");
         for (String handler : handlers) {
             try {
-                Class<?> ht = Class.forName(String.format("cn.xiayf.code.handler.%s", handler));
+                Class<?> ht = Class.forName(String.format("cn.xiayf.code.dwc.handler.%s", handler));
                 Constructor<?> constructor = ht.getConstructor(ConfigService.class);
                 BaseHandler h = (BaseHandler) constructor.newInstance(cs);
                 HandlerGroup.registerHandler(h);
@@ -205,7 +205,7 @@ public class App {
     private static InputAdapter loadAdapter(String whichAdapter) {
         InputAdapter ia = null;
         try {
-            Class<?> ht = Class.forName(String.format("cn.xiayf.code.adapter.%sAdapter", whichAdapter));
+            Class<?> ht = Class.forName(String.format("cn.xiayf.code.dwc.adapter.%sAdapter", whichAdapter));
             ia = (InputAdapter) ht.newInstance();
         } catch (Exception e) {
             log.error(e.getMessage(), e);
